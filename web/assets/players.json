@@ -26,6 +26,183 @@
             "age": 32,
             "heigth": 1.81,
             "foot": "rigth"
-        }
+        },
+        {
+            "name": "Neymar Jr.",
+            "club": "Al Hilal",
+            "position": "LW",
+            "age": 32,
+            "height": 1.75,
+            "foot": "right"
+          },
+          {
+            "name": "Mohamed Salah",
+            "club": "Liverpool",
+            "position": "RW",
+            "age": 31,
+            "height": 1.75,
+            "foot": "left"
+          },
+          {
+            "name": "Kylian Mbappé",
+            "club": "Paris Saint-Germain",
+            "position": "ST",
+            "age": 25,
+            "height": 1.78,
+            "foot": "right"
+          },
+          {
+            "name": "Robert Lewandowski",
+            "club": "Barcelona",
+            "position": "ST",
+            "age": 36,
+            "height": 1.84,
+            "foot": "right"
+          },
+          {
+            "name": "Bruno Fernandes",
+            "club": "Manchester United",
+            "position": "CM",
+            "age": 29,
+            "height": 1.83,
+            "foot": "right"
+          },
+          {
+            "name": "Sadio Mané",
+            "club": "Al Nassr",
+            "position": "LW",
+            "age": 29,
+            "height": 1.75,
+            "foot": "left"
+          },
+          {
+            "name": "Erling Haaland",
+            "club": "Manchester City",
+            "position": "ST",
+            "age": 24,
+            "height": 1.94,
+            "foot": "right"
+          },
+          {
+            "name": "Luka Modrić",
+            "club": "Real Madrid",
+            "position": "CM",
+            "age": 36,
+            "height": 1.72,
+            "foot": "right"
+          },
+          {
+            "name": "Harry Kane",
+            "club": "Bayern Munchen",
+            "position": "ST",
+            "age": 28,
+            "height": 1.88,
+            "foot": "right"
+          },
+          {
+            "name": "Paul Pogba",
+            "club": "Juventus",
+            "position": "CM",
+            "age": 32,
+            "height": 1.91,
+            "foot": "right"
+          },
+         
+          {
+            "name": "Marcus Rashford",
+            "club": "Manchester United",
+            "position": "LW",
+            "age": 26,
+            "height": 1.80,
+            "foot": "right"
+          },
+          {
+            "name": "Antoine Griezmann",
+            "club": "Atletico Madrid",
+            "position": "ST",
+            "age": 32,
+            "height": 1.76,
+            "foot": "left"
+          },
+          {
+            "name": "Virgil van Dijk",
+            "club": "Liverpool",
+            "position": "CB",
+            "age": 32,
+            "height": 1.93,
+            "foot": "right"
+          },
+          {
+            "name": "João Cancelo",
+            "club": "Barcelona",
+            "position": "RB",
+            "age": 30,
+            "height": 1.82,
+            "foot": "right"
+          },
+          {
+            "name": "Frenkie de Jong",
+            "club": "Barcelona",
+            "position": "CM",
+            "age": 27,
+            "height": 1.81,
+            "foot": "right"
+          },
+          {
+            "name": "Andrew Robertson",
+            "club": "Liverpool",
+            "position": "LB",
+            "age": 30,
+            "height": 1.78,
+            "foot": "left"
+          },
+          {
+            "name": "Jadon Sancho",
+            "club": "Jail FC",
+            "position": "RW",
+            "age": 23,
+            "height": 1.80,
+            "foot": "left"
+          },
+          {
+            "name": "Luis Suárez",
+            "club": "Inter Miami",
+            "position": "ST",
+            "age": 38,
+            "height": 1.82,
+            "foot": "right"
+          },
+          {
+            "name": "Hakim Ziyech",
+            "club": "Galatasaaray",
+            "position": "RW",
+            "age": 31,
+            "height": 1.80,
+            "foot": "left"
+          },
+          {
+            "name": "Aymeric Laporte",
+            "club": "En Naszr",
+            "position": "CB",
+            "age": 29,
+            "height": 1.91,
+            "foot": "left"
+          },
+          {
+            "name": "Toni Kroos",
+            "club": "Real Madrid",
+            "position": "CM",
+            "age": 36,
+            "height": 1.83,
+            "foot": "right"
+          },
+          {
+            "name": "Raheem Sterling",
+            "club": "Chelsea",
+            "position": "LW",
+            "age": 30,
+            "height": 1.70,
+            "foot": "right"
+          }
     ]
 }
