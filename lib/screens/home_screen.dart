@@ -89,16 +89,44 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('Player Details'),
+          title: const Text(
+            'Player Details',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
           content: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Text('Name: ${playerDetails["name"]}'),
-              Text('Club: ${playerDetails["club"]}'),
-              Text('Position: ${playerDetails["position"]}'),
-              Text('Age: ${playerDetails["age"]}'),
-              Text('Height: ${playerDetails["height"]}'),
-              Text('Foot: ${playerDetails["foot"]}'),
+              Image.network(
+                playerDetails["image"],
+                width: 100,
+                height: 100,
+                fit: BoxFit.cover,
+              ),
+              const SizedBox(height: 10),
+              Text(
+                'Name: ${playerDetails["name"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Club: ${playerDetails["club"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Position: ${playerDetails["position"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Age: ${playerDetails["age"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Height: ${playerDetails["height"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Text(
+                'Foot: ${playerDetails["foot"]}',
+                style: const TextStyle(fontWeight: FontWeight.bold),
+              ),
             ],
           ),
         );

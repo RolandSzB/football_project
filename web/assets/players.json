@@ -1,208 +1,229 @@
 {
     "players": [
         {
-            
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Lionel Messi",
             "club": "Inter Miami",
             "position": "RW",
             "age": 36,
-            "heigth": 1.7,
+            "height": 1.7,
             "foot": "left"
         },
         {
-            
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Cristiano Ronaldo",
             "club": "Al Nassr",
             "position": "ST",
             "age": 38,
-            "heigth": 1.87,
+            "height": 1.87,
             "foot": "right"
         },
         {
-            
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Kevin De Bruyne",
             "club": "Manchester City",
             "position": "CAM",
             "age": 32,
-            "heigth": 1.81,
+            "height": 1.81,
             "foot": "rigth"
         },
         {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Neymar Jr.",
             "club": "Al Hilal",
             "position": "LW",
             "age": 32,
             "height": 1.75,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Mohamed Salah",
             "club": "Liverpool",
             "position": "RW",
             "age": 31,
             "height": 1.75,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Kylian Mbappé",
             "club": "Paris Saint-Germain",
             "position": "ST",
             "age": 25,
             "height": 1.78,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Robert Lewandowski",
             "club": "Barcelona",
             "position": "ST",
             "age": 36,
             "height": 1.84,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Bruno Fernandes",
             "club": "Manchester United",
             "position": "CM",
             "age": 29,
             "height": 1.83,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Sadio Mané",
             "club": "Al Nassr",
             "position": "LW",
             "age": 29,
             "height": 1.75,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Erling Haaland",
             "club": "Manchester City",
             "position": "ST",
             "age": 24,
             "height": 1.94,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Luka Modrić",
             "club": "Real Madrid",
             "position": "CM",
             "age": 36,
             "height": 1.72,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Harry Kane",
             "club": "Bayern Munchen",
             "position": "ST",
             "age": 28,
             "height": 1.88,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Paul Pogba",
             "club": "Juventus",
             "position": "CM",
             "age": 32,
             "height": 1.91,
             "foot": "right"
-          },
-         
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Marcus Rashford",
             "club": "Manchester United",
             "position": "LW",
             "age": 26,
             "height": 1.80,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Antoine Griezmann",
             "club": "Atletico Madrid",
             "position": "ST",
             "age": 32,
             "height": 1.76,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Virgil van Dijk",
             "club": "Liverpool",
             "position": "CB",
             "age": 32,
             "height": 1.93,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "João Cancelo",
             "club": "Barcelona",
             "position": "RB",
             "age": 30,
             "height": 1.82,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Frenkie de Jong",
             "club": "Barcelona",
             "position": "CM",
             "age": 27,
             "height": 1.81,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Andrew Robertson",
             "club": "Liverpool",
             "position": "LB",
             "age": 30,
             "height": 1.78,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Jadon Sancho",
             "club": "Jail FC",
             "position": "RW",
             "age": 23,
             "height": 1.80,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Luis Suárez",
             "club": "Inter Miami",
             "position": "ST",
             "age": 38,
             "height": 1.82,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Hakim Ziyech",
             "club": "Galatasaaray",
             "position": "RW",
             "age": 31,
             "height": 1.80,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Aymeric Laporte",
             "club": "En Naszr",
             "position": "CB",
             "age": 29,
             "height": 1.91,
             "foot": "left"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Toni Kroos",
             "club": "Real Madrid",
             "position": "CM",
             "age": 36,
             "height": 1.83,
             "foot": "right"
-          },
-          {
+        },
+        {
+            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
             "name": "Raheem Sterling",
             "club": "Chelsea",
             "position": "LW",
             "age": 30,
             "height": 1.70,
             "foot": "right"
-          }
+        }
     ]
 }
