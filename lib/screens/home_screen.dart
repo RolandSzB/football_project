@@ -35,7 +35,9 @@ class _HomeScreenState extends State<HomeScreen> {
             icon: const Icon(Icons.public),
           ),
           IconButton(
-            onPressed: () {},
+            onPressed: () {
+              _openSearch(context);
+            },
             icon: const Icon(Icons.search),
           ),
         ],
@@ -51,9 +53,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           margin: const EdgeInsets.all(8.0),
                           color: Colors.green.shade100,
                           child: ListTile(
-                            // leading: CircleAvatar(
-                            //   backgroundImage: NetworkImage(_players[index]["image"]),
-                            // ),
                             title: Text(_players[index]["name"]),
                             subtitle: Text(_players[index]["club"]),
                             trailing: Text(_players[index]["position"]),
@@ -76,6 +75,20 @@ class _HomeScreenState extends State<HomeScreen> {
         splashColor: Colors.yellow,
         foregroundColor: Colors.red,
         mouseCursor: SystemMouseCursors.cell,
+      ),
+    );
+  }
+
+  void _openSearch(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute(
+        builder: (BuildContext context) {
+          return Scaffold(
+            appBar: AppBar(
+              title: Text(strings.searchScreenTitle),
+            ),
+          );
+        },
       ),
     );
   }
