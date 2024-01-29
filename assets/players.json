@@ -1,0 +1,31 @@
+{
+    "players": [
+        {
+            "id":1,
+            "name": "Lionel Messi",
+            "club": "Inter Miami",
+            "position": "RW",
+            "age": 36,
+            "heigth": 1.7,
+            "foot": "left"
+        },
+        {
+            "id":2,
+            "name": "Cristiano Ronaldo",
+            "club": "Al Nassr",
+            "position": "ST",
+            "age": 38,
+            "heigth": 1.87,
+            "foot": "right"
+        },
+        {
+            "id":3,
+            "name": "Kevin De Bruyne",
+            "club": "Manchester City",
+            "position": "CAM",
+            "age": 32,
+            "heigth": 1.81,
+            "foot": "rigth"
+        }
+    ]
+}
