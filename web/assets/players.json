@@ -1,7 +1,7 @@
 {
     "players": [
         {
-            "id":1,
+            
             "name": "Lionel Messi",
             "club": "Inter Miami",
             "position": "RW",
@@ -10,7 +10,7 @@
             "foot": "left"
         },
         {
-            "id":2,
+            
             "name": "Cristiano Ronaldo",
             "club": "Al Nassr",
             "position": "ST",
@@ -19,7 +19,7 @@
             "foot": "right"
         },
         {
-            "id":3,
+            
             "name": "Kevin De Bruyne",
             "club": "Manchester City",
             "position": "CAM",
