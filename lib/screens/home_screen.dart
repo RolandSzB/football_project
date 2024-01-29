@@ -96,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Image.network(
+              Image.asset(
                 playerDetails["image"],
                 width: 100,
                 height: 100,

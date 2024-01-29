@@ -1,7 +1,7 @@
 {
     "players": [
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/messi.jpeg",
             "name": "Lionel Messi",
             "club": "Inter Miami",
             "position": "RW",
@@ -10,7 +10,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/ronaldo.jpeg",
             "name": "Cristiano Ronaldo",
             "club": "Al Nassr",
             "position": "ST",
@@ -19,7 +19,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/debruyne.jpeg",
             "name": "Kevin De Bruyne",
             "club": "Manchester City",
             "position": "CAM",
@@ -28,7 +28,7 @@
             "foot": "rigth"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Neymar Jr.",
             "club": "Al Hilal",
             "position": "LW",
@@ -37,7 +37,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Mohamed Salah",
             "club": "Liverpool",
             "position": "RW",
@@ -46,7 +46,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Kylian Mbappé",
             "club": "Paris Saint-Germain",
             "position": "ST",
@@ -55,7 +55,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Robert Lewandowski",
             "club": "Barcelona",
             "position": "ST",
@@ -64,7 +64,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Bruno Fernandes",
             "club": "Manchester United",
             "position": "CM",
@@ -73,7 +73,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Sadio Mané",
             "club": "Al Nassr",
             "position": "LW",
@@ -82,7 +82,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Erling Haaland",
             "club": "Manchester City",
             "position": "ST",
@@ -91,7 +91,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Luka Modrić",
             "club": "Real Madrid",
             "position": "CM",
@@ -100,7 +100,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Harry Kane",
             "club": "Bayern Munchen",
             "position": "ST",
@@ -109,7 +109,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Paul Pogba",
             "club": "Juventus",
             "position": "CM",
@@ -118,7 +118,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Marcus Rashford",
             "club": "Manchester United",
             "position": "LW",
@@ -127,7 +127,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Antoine Griezmann",
             "club": "Atletico Madrid",
             "position": "ST",
@@ -136,7 +136,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Virgil van Dijk",
             "club": "Liverpool",
             "position": "CB",
@@ -145,7 +145,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "João Cancelo",
             "club": "Barcelona",
             "position": "RB",
@@ -154,7 +154,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Frenkie de Jong",
             "club": "Barcelona",
             "position": "CM",
@@ -163,7 +163,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Andrew Robertson",
             "club": "Liverpool",
             "position": "LB",
@@ -172,7 +172,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Jadon Sancho",
             "club": "Jail FC",
             "position": "RW",
@@ -181,7 +181,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Luis Suárez",
             "club": "Inter Miami",
             "position": "ST",
@@ -190,7 +190,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Hakim Ziyech",
             "club": "Galatasaaray",
             "position": "RW",
@@ -199,7 +199,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Aymeric Laporte",
             "club": "En Naszr",
             "position": "CB",
@@ -208,7 +208,7 @@
             "foot": "left"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Toni Kroos",
             "club": "Real Madrid",
             "position": "CM",
@@ -217,7 +217,7 @@
             "foot": "right"
         },
         {
-            "image": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+            "image": "./images/noone.jpeg",
             "name": "Raheem Sterling",
             "club": "Chelsea",
             "position": "LW",
