@@ -23,6 +23,13 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
+  void _openSearch(BuildContext context) {
+    showSearch(
+      context: context,
+      delegate: PlayerSearchDelegate(_players),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,18 +53,20 @@ class _HomeScreenState extends State<HomeScreen> {
         _players.isNotEmpty
             ? Expanded(
                 child: ListView.builder(
-                    itemCount: _players.length,
-                    itemBuilder: (context, index) {
-                      return Card(
-                          key: ValueKey(_players[index]["id"]),
-                          margin: const EdgeInsets.all(8.0),
-                          color: Colors.green.shade100,
-                          child: ListTile(
-                            title: Text(_players[index]["name"]),
-                            subtitle: Text(_players[index]["club"]),
-                            trailing: Text(_players[index]["position"]),
-                          ));
-                    }),
+                  itemCount: _players.length,
+                  itemBuilder: (context, index) {
+                    return Card(
+                      key: ValueKey(_players[index]["id"]),
+                      margin: const EdgeInsets.all(8.0),
+                      color: Colors.green.shade100,
+                      child: ListTile(
+                        title: Text(_players[index]["name"]),
+                        subtitle: Text(_players[index]["club"]),
+                        trailing: Text(_players[index]["position"]),
+                      ),
+                    );
+                  },
+                ),
               )
             : ElevatedButton(
                 onPressed: () {
@@ -65,7 +74,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 },
                 child: const Center(
                   child: Text("Load JSON"),
-                ))
+                ),
+              ),
       ]),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => showDummyDialog(context),
@@ -74,20 +84,6 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.green,
         foregroundColor: Colors.black,
         mouseCursor: SystemMouseCursors.cell,
-      ),
-    );
-  }
-
-  void _openSearch(BuildContext context) {
-    Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (BuildContext context) {
-          return Scaffold(
-            appBar: AppBar(
-              title: const Text(strings.searchScreenTitle),
-            ),
-          );
-        },
       ),
     );
   }
@@ -113,7 +109,77 @@ class _HomeScreenState extends State<HomeScreen> {
         return AlertDialog(
           title: const Text('Location Info'),
           content: Text(
-              'You are in Romania!\nCurrent Date and Time: $formattedDateTime'),
+            'You are in Romania!\nCurrent Date and Time: $formattedDateTime',
+          ),
+        );
+      },
+    );
+  }
+}
+
+class PlayerSearchDelegate extends SearchDelegate<String> {
+  final List players;
+
+  PlayerSearchDelegate(this.players);
+
+  @override
+  List<Widget> buildActions(BuildContext context) {
+    return [
+      IconButton(
+        icon: const Icon(Icons.clear),
+        onPressed: () {
+          query = '';
+        },
+      ),
+    ];
+  }
+
+  @override
+  Widget buildLeading(BuildContext context) {
+    return IconButton(
+      icon: const Icon(Icons.arrow_back),
+      onPressed: () {
+        close(context, '');
+      },
+    );
+  }
+
+  @override
+  Widget buildResults(BuildContext context) {
+    final searchResults = players
+        .where((player) =>
+            player["name"].toLowerCase().contains(query.toLowerCase()))
+        .toList();
+
+    return ListView.builder(
+      itemCount: searchResults.length,
+      itemBuilder: (context, index) {
+        return ListTile(
+          title: Text(searchResults[index]["name"]),
+          subtitle: Text(searchResults[index]["club"]),
+          trailing: Text(searchResults[index]["position"]),
+        );
+      },
+    );
+  }
+
+  @override
+  Widget buildSuggestions(BuildContext context) {
+    final suggestionList = players
+        .where((player) =>
+            player["name"].toLowerCase().contains(query.toLowerCase()))
+        .toList();
+
+    return ListView.builder(
+      itemCount: suggestionList.length,
+      itemBuilder: (context, index) {
+        return ListTile(
+          title: Text(suggestionList[index]["name"]),
+          subtitle: Text(suggestionList[index]["club"]),
+          trailing: Text(suggestionList[index]["position"]),
+          onTap: () {
+            close(context, suggestionList[index]["name"]);
+          },
         );
       },
     );
