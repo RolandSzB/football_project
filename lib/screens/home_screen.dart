@@ -2,7 +2,6 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:restart_app/restart_app.dart';
 import '../common/strings.dart' as strings;
 
 class HomeScreen extends StatefulWidget {
@@ -69,11 +68,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ]),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () => showDummyDialog(context),
-        label: const Text('NO'),
+        label: const Text('Refresh'),
         icon: const Icon(Icons.restart_alt),
-        focusColor: Colors.green,
-        splashColor: Colors.yellow,
-        foregroundColor: Colors.red,
+        backgroundColor: Colors.green,
+        foregroundColor: Colors.black,
         mouseCursor: SystemMouseCursors.cell,
       ),
     );
@@ -85,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
         builder: (BuildContext context) {
           return Scaffold(
             appBar: AppBar(
-              title: Text(strings.searchScreenTitle),
+              title: const Text(strings.searchScreenTitle),
             ),
           );
         },
@@ -98,20 +96,23 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         return const AlertDialog(
-          title: Text('Hello Dialog'),
-          content: Text('This is my content text for the dialog.'),
+          title: Text('Refresh'),
         );
       },
     );
   }
 
-  void showDummyWorld(BuildContext context) {
+  showDummyWorld(BuildContext context) {
+    DateTime now = DateTime.now();
+    String formattedDateTime = "${now.toLocal()}".split('.')[0];
+
     showDialog(
       context: context,
       builder: (BuildContext context) {
-        return const AlertDialog(
-          title: Text('Locaion Info'),
-          content: Text('You are in Romania!'),
+        return AlertDialog(
+          title: const Text('Location Info'),
+          content: Text(
+              'You are in Romania!\nCurrent Date and Time: $formattedDateTime'),
         );
       },
     );

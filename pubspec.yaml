@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   restart_app: ^1.2.1
+  geolocator: ^7.0.3
 
 dev_dependencies:
   flutter_test:
