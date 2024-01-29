@@ -95,6 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
             children: [
               Image.asset(
                 playerDetails["image"],
@@ -129,6 +130,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ],
           ),
+          contentPadding:
+              const EdgeInsets.symmetric(vertical: 10, horizontal: 24),
         );
       },
     );
