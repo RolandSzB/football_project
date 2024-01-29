@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:geolocator/geolocator.dart';
 import '../common/strings.dart' as strings;
 
 class HomeScreen extends StatefulWidget {
