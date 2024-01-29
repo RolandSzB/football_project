@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List _players = [];
 
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString('/players.json');
+    final String response = await rootBundle.loadString('assets/players.json');
     final data = await json.decode(response);
     setState(() {
       _players = data["players"];
