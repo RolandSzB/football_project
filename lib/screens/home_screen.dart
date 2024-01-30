@@ -95,7 +95,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
-            mainAxisSize: MainAxisSize.min, // Set the mainAxisSize to min
+            mainAxisSize: MainAxisSize.min,
             children: [
               Image.asset(
                 playerDetails["image"],
@@ -203,7 +203,6 @@ class PlayerSearchDelegate extends SearchDelegate<String> {
           subtitle: Text(suggestionList[index]["club"]),
           trailing: Text(suggestionList[index]["position"]),
           onTap: () {
-            // Call the method to show details
             showDetailsCallback(context, suggestionList[index]);
           },
         );
